@@ -1,0 +1,47 @@
+
+.iwaiter_navbar {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 15vh;
+    background: transparent;
+}
+
+.menu_icon_div {
+    background: #fff;
+    padding: 10px;
+    border-radius: 250px;
+    max-height: 3.5rem;
+    text-align: center;
+}
+
+.box_navbar {
+   
+    width: 35px;
+    height: 3px;
+    background: #162d4a;
+    display: block;
+    margin: 8px 0;
+}
+.logo_div {
+    background: #fff;
+    padding: 5px;
+    border-radius: 250px;
+
+}
+.logo_div img{
+    max-height: 3.5rem;
+    background: transparent;
+}
+.search_div {
+    background: #fff;
+    padding: 5px;
+    border-radius: 250px;
+    max-height: 3.5rem;
+}
+.search_div img{
+    max-height: 2.5rem;
+    background: transparent;
+    opacity: 0.6;
+}
