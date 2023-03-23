@@ -6,8 +6,12 @@ const Footer = () => {
   return (
     <div className='section fotter_section' >
         <footer>
-            <div className="footer_area">
-            <h1 className="footer_subheadline">بني ❤️ بواسطة عمار حمدي && ريان مكي</h1>
+                      <div className="footer_area">
+            <h1 className="footer_subheadline">بني ❤️ بواسطة  
+              <span onClick={() => openInNewTab('https://notregsyrdev.web.app/') } > عمار حمدي حموش  - </span>
+              <br />
+              <span>codingammarhamdi@gmail.com</span>
+               </h1>
             </div>
 
         </footer>
